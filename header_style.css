@@ -4,9 +4,9 @@
 
 .sfondo_header {
     position: fixed;
-    -webkit-box-shadow: inset 0 0 20px 20px #000;    
-    -moz-box-shadow: inset 0 0 20px 20px #000;
-    box-shadow: inset 0 0 20px 20px #000;
+    -webkit-box-shadow: inset 0 0 13px 13px #000;    
+    -moz-box-shadow: inset 0 0 13px 13px #000;
+    box-shadow: inset 0 0 13px 13px #000;
 }
 
 .sfondo_header {
@@ -21,20 +21,20 @@
 /*
 .sfondo_header {
     filter: brightness(70%);
-    
 }
  */
 
 .barra_superiore {
     display: flex;
+    flex-direction: row;
     position: 0;
     margin: 0px 60px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .contenitore_logo {
-    width: 150px;
-    height: 40px;
+    width: 200px;
+    height: 70px;
     margin-right: 1030px ;
     padding: 0;
     margin-top: 0;
@@ -90,7 +90,8 @@ option {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 34px;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -98,7 +99,8 @@ option {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -106,26 +108,28 @@ option {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0;
 }
 
 .container_form_email {
     text-align: center;
+    align-items: center;
 }
 
 .input_email {
     box-sizing: border-box;
-    width: 400px;
-    height: 50px;
+    width: 500px;
+    height: 65px;
 }
 
 .bottone_email {
-    width: 100px;
-    height: 50px; 
+    width: 150px;
+    height: 65px; 
     background-color: #E50914;
     color: white;
-    font-size: large;
+    font-weight: 400;
+    font-size: 29px;
     border: none;
-    border-radius: 4px;
+    border-radius: 2px;
 }
