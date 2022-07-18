@@ -13,6 +13,8 @@
     margin: 0;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +26,7 @@
 }
  */
 
-.barra_superiore {
+ .barra_superiore {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,6 +51,10 @@
     display: flex;
 }
 
+.contenitore_selettore {
+    padding-right: 30px;
+}
+
 .selettore_lingua {
   font-size: 14px;
   height: 40px;
@@ -67,11 +73,6 @@ option {
     text-align: center;
 }
 
-.bottone_accedi {
-    padding-left: 30px;
-
-}
-
 .stile_bottone {
     width: 90px;
     height: 40px;
@@ -80,6 +81,8 @@ option {
     color: white;
     border: none;
     border-radius: 4px;
+    z-index: auto;
+    
 }
 
 .centro {
