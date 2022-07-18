@@ -1,7 +1,20 @@
 .sfondo_header {
     background-image: url(assets/sfondo_header.jpg)
+}
+
+.sfondo_header {
+    position: relative; 
+    -webkit-box-shadow: inset 0 0 20px 20px #000;    
+    -moz-box-shadow: inset 0 0 20px 20px #000;
+    box-shadow: inset 0 0 20px 20px #000;
+}
+
+/*
+.sfondo_header {
+    filter: brightness(70%);
     
 }
+ */
 
 .barra_superiore {
     display: flex;
@@ -58,7 +71,10 @@ option {
 }
 
 .centro {
-    padding: 80px 60px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .titolo_1 {
