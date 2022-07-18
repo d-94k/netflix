@@ -27,6 +27,7 @@
 .barra_superiore {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: 0;
     margin: 0px 60px;
     padding-top: 30px;
@@ -35,7 +36,6 @@
 .contenitore_logo {
     width: 200px;
     height: 70px;
-    margin-right: 1030px ;
     padding: 0;
     margin-top: 0;
 }
@@ -43,7 +43,10 @@
 .logo_netflix {
     object-fit: contain;
     width: 100%;
-    
+}
+
+.contenitore_destro {
+    display: flex;
 }
 
 .selettore_lingua {
