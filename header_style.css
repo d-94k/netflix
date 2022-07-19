@@ -119,8 +119,9 @@ option {
 }
 
 .container_form_email {
-    text-align: center;
-    align-items: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .input_email {
@@ -135,7 +136,7 @@ option {
     background-color: #E50914;
     color: white;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 25px;
     border: none;
     border-radius: 2px;
 }
