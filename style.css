@@ -53,11 +53,12 @@ html {
 .footer-top {
     font-size: 15px;
     color: rgb(115,115,115);
-    display: flex;
+    margin-left: 11px;
 }
 
 .footer-top-a {
     padding-left: 3px;
+    display: inline-block;
 }
 
 a, .footer-link-item {
@@ -85,7 +86,7 @@ ul {
 }
 
 ul.structural {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
