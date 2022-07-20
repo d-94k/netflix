@@ -1,5 +1,11 @@
-.sfondo_header {
-  background-image: url(assets/sfondo_header.png);
+.div_cover{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0,transparent 50%,rgba(0,0,0,.8)), url(assets/sfondo-header2.jpg);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .sfondo_header {
@@ -18,12 +24,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#opacità {
-  position: absolute;
-  background-color: #828282;
-  z-index: +1;
 }
 
 .barra_superiore {
