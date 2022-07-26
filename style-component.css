@@ -1,0 +1,248 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+}
+
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+#container {
+    display: flex;
+    border-bottom: 8px solid #222;
+    border-top: 8px solid #222;
+    justify-content: center;
+    padding: 70px 45px;
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+h2 {
+    width: 70%;
+    font-weight: 400;
+    font-size: 1.625rem;
+    margin-top: 20px;
+}
+
+#video-container {
+    min-width: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#videoframe {
+    min-width: 80%;
+    width: 80%;
+    height: auto;
+    margin-left: 0;
+}
+
+#other-container {
+    display: flex;
+    border-bottom: 8px solid #222;
+    justify-content: center;
+}
+
+#other-frame-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#other-text-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#other-text-container>h1 {
+    width: 100%;
+}
+
+#other-text-container>h2 {
+    width: 85%;
+    align-self: flex-start;
+}
+
+#other-img {
+    width: 60%;
+    height: auto;
+    z-index: -5;
+    position: relative;
+    margin: 0;
+}
+
+#other-frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 40%;
+    max-width: 40%;
+}
+
+#loader {
+    display: flex;
+    justify-content: baseline;
+    z-index: -1;
+    position: relative;
+    width: 45%;
+    height: 18%;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    transform: translate(0,-60%);
+    background-color: #000000;
+}
+
+#text-stranger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#stranger {
+    margin-bottom: 0px;
+    font-weight: 600;
+    margin-bottom: -2%;
+}
+
+#things {
+    margin-top: 2%;
+    color: #0071eb;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#loading {
+    height: 38%;
+    margin: auto;
+    margin-right: 4%;
+}
+
+#strangerthings {
+    height: 80%;
+    width: auto;
+    align-self: center;
+    margin-left: 3%;
+}
+
+#thirdcontainer {
+    display: flex;
+    border-bottom: 8px solid #222;
+    justify-content: center;
+}
+
+#thirdtextcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 0;
+    align-self: flex-start;
+    position: relative;
+    top: 70px;
+}
+
+#thirdimagecontainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+#strangervideo {
+    height: 90%;
+    width: auto;
+    margin-bottom: 0;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+#videostranger {
+    width: 57%;
+    align-self: center;
+    z-index: -1;
+    transform: translate(-80%, -23%);
+}
+
+#lastcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 70px 45px;
+}
+
+#lastcontainertext {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#lastcontainertext>h2 {
+    width: 80%;
+}
+
+#img-bambini {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    left: 15%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textcontainer {
+        border: 3px solid yellow;
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        width: 90%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 1%;
+    }
+}
