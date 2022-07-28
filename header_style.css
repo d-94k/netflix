@@ -9,7 +9,7 @@
 }
 
 .gd_header {
-  position: absolute;
+  position: relative;
 }
 
 /* css ombre rompe tutto e fa strabordare il contenuto*/
@@ -149,6 +149,7 @@
   cursor: pointer;
 }
 
+
 @media screen and (max-width: 320px) {
 
   .barra_superiore {
@@ -161,7 +162,8 @@
   }
 
   .contenitore_logo {
-    height: 30px;
+    width: 89px;
+    height: 28px;
     padding: 0;
     margin-top: 0;
   }
