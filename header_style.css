@@ -8,7 +8,7 @@
   top: 0;
 }
 
-header {
+.gd_header {
   position: absolute;
 }
 
@@ -74,7 +74,7 @@ header {
   border-radius: 2px;
 }
 
-option {
+.gd_option {
   font-size: 14px;
   background-color: grey;
   color: white;
