@@ -1,370 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="origin-trial" data-feature="EME Extension - Policy Check" data-expires="2018-11-26" content="Aob+++752GiUzm1RNSIkM9TINnQDxTlxz02v8hFJK/uGO2hmXnJqH8c/ZpI05b2nLsHDhGO3Ce2zXJUFQmO7jA4AAAB1eyJvcmlnaW4iOiJodHRwczovL25ldGZsaXguY29tOjQ0MyIsImZlYXR1cmUiOiJFbmNyeXB0ZWRNZWRpYUhkY3BQb2xpY3lDaGVjayIsImV4cGlyeSI6MTU0MzI0MzQyNCwiaXNTdWJkb21haW4iOnRydWV9">
-        <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
-        <link rel="preload" href="https://assets.nflxext.com/web/ffe/wp/signup/nmhp/nmhpFrameworkClient.js.1104c3b541036c10444a.js" as="script">
-        <link type="text/css" rel="stylesheet" href="/personalization/cl2/freeform/WebsiteDetect?source=wwwhead&amp;fetchType=css&amp;modalView=nmLanding" data-uia="botLink">
-        <meta content="guarda film, film online, guarda TV, TV online, serie TV online, guarda serie TV, film in streaming, tv in streaming, streaming istantaneo, guarda online, film, guarda film Italia, guarda TV online, nessun download, lungometraggi" name="keywords">
-        <meta content="Guarda film e programmi TV su Netflix online o direttamente su smart TV, console per videogiochi, PC, Mac, cellulare, tablet e molti altri dispositivi." name="description">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-        <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="apple-touch-icon" content="https://assets.nflxext.com/en_us/layout/ecweb/netflix-app-icon_152.jpg">
-        <link type="text/css" rel="stylesheet" href="https://assets.nflxext.com/web/ffe/wp/less/core/error-page.b4d75d715f60a9ee1887.css" data-uia="botLink">
-        <link type="text/css" rel="stylesheet" data-uia="botLink">
-        <link type="text/css" rel="stylesheet" href="https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp.d564ae8f63d662e49ec4.css" data-uia="botLink">
-        <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
-        <link rel="apple-touch-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png">
-        -->
+    <head>
+    </head>
 
-    <style>
-      * {
-        letter-spacing: 0 !important;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        margin: 0 auto;
-      }
-
-      div {
-        display: block;
-        margin: 0 auto;
-      }
-
-      .card {
-        background-color: #000000;
-        margin-bottom: 0px;
-        padding: 70px 45px;
-        box-sizing: border-box;
-        font-size: 13px;
-        color: #737373;
-        font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-        min-width: 190px;
-        -webkit-font-smoothing: antialiased;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 0px;
-        position: relative;
-        -webkit-text-size-adjust: 100%;
-      }
-
-      .wrapper {
-        text-align: left;
-        margin-bottom: 20px;
-        width: 100%;
-        position: relative;
-        margin: 0 auto;
-      }
-
-      .footer {
-        margin-top: 0;
-        font-size: 1em;
-        padding-bottom: 20px;
-        position: relative;
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-      }
-
-      .footer-top {
-        margin: 0 0 30px;
-        padding: 0;
-        font-size: 15px;
-      }
-
-      .footer-top-a {
-        padding-left: 3px;
-        display: inline;
-      }
-
-      p {
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-      }
-
-      ul.structural {
-        margin: 0 auto;
-        padding: 0;
-      }
-
-      .footer-links {
-        box-sizing: border-box;
-        font-size: 13px;
-        max-width: 1000px;
-      }
-
-      a,
-      .footer-link-item {
-        text-decoration: none;
-        color: #737373;
-        padding-right: 12px;
-        width: 213px;
-        height: 16px;
-        display: block;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        list-style-type: disc;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 40px;
-      }
-
-      ul.structural > li {
-        list-style: none;
-        margin-left: 0;
-        margin-bottom: 16px;
-      }
-
-      .footer-link-item {
-        box-sizing: border-box;
-        display: inline-block;
-        margin-bottom: 16px;
-        min-width: 100px;
-        padding: 0 12px 0 0;
-        vertical-align: top;
-        width: 25%;
-      }
-
-      li {
-        text-align: left;
-        padding-right: 12px;
-      }
-
-      .selezione-lingua {
-        margin-top: 20px;
-      }
-
-      .selezione-lingua-wrapper {
-        width: auto;
-        display: inline-block;
-        position: relative;
-      }
-
-      .selezione-lingua .selezione-lingua-label {
-        clip: rect(0 0 0 0);
-        border: 0;
-        display: block;
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-      }
-
-      .globo {
-        display: inline-block;
-        position: relative;
-        width: 100%;
-      }
-
-      .globo::before {
-        color: #999;
-        top: 17px;
-        font-family: nf-icon;
-        font-size: 16px;
-        pointer-events: none;
-        position: absolute;
-        left: 15px;
-        content: "\e896";
-        line-height: 0.7;
-      }
-
-      .selezione-lingua-medium {
-        padding-right: 26px;
-        text-indent: 0;
-        display: inline-block;
-        border-radius: 2px;
-      }
-
-      .selezione-lingua-wrapper .selezione-lingua-medium {
-        line-height: 1.7;
-        padding-left: 50px;
-        display: inline-block;
-      }
-
-      select {
-        background-color: #000000;
-        border: 1px solid #333;
-        color: #999;
-        font-size: 16px;
-        padding: 12px;
-        padding-right: 26px;
-      }
-
-      .footer-paese {
-        font-size: 1em;
-        margin-top: 24px;
-        font-size: 1em;
-        padding-bottom: 20px;
-        position: relative;
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 0;
-        max-width: 1000px;
-      }
-    </style>
-  </head>
-
-  <body>
+<body>
     <footer>
-      <div class="card">
+        <div class="card">
         <div class="wrapper">
-          <div class="footer">
-            <div class="link">
-              <p class="footer-top">
-                Domande? Chiama
-                <a class="footer-top-a" href="tel:800-130-364">800-130-364</a>
-              </p>
-              <ul class="footer-links structural">
+        <div class="footer">
+        <div class="link">
+            <p class="footer-top">Domande? Chiama <a class="footer-top-a" href="tel:800-130-364">800-130-364</a></p>
+            <ul class="footer-links structural">
                 <li class="listalink">
-                  <a class="link" href="https://help.netflix.com/support/412">
-                    <span id="">Domande frequenti</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com/support/412">
+                        <span id="">Domande frequenti</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://help.netflix.com">
-                    <span id="">Centro assistenza</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com">
+                        <span id="">Centro assistenza</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="/youraccount">
-                    <span id="">Account</span>
-                  </a>
+                    <a class="link" href="/youraccount">
+                        <span id="">Account</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://media.netflix.com/">
-                    <span id="">Media Center</span>
-                  </a>
+                    <a class="link" href="https://media.netflix.com/">
+                        <span id="">Media Center</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="http://ir.netflix.com/">
-                    <span id="">Rapporti con gli investitori</span>
-                  </a>
+                    <a class="link" href="http://ir.netflix.com/">
+                        <span id="">Rapporti con gli investitori</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://jobs.netflix.com/jobs">
-                    <span id="">Opportunità di lavoro</span>
-                  </a>
+                    <a class="link" href="https://jobs.netflix.com/jobs">
+                        <span id="">Opportunità di lavoro</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="/redeem">
-                    <span id="">Riscatta carte regalo</span>
-                  </a>
+                    <a class="link" href="/redeem">
+                        <span id="">Riscatta carte regalo</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="/gift-cards">
-                    <span id="">Acquista carte regalo</span>
-                  </a>
+                    <a class="link" href="/gift-cards">
+                        <span id="">Acquista carte regalo</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="/watch">
-                    <span id="">Come guardare Netflix</span>
-                  </a>
+                    <a class="link" href="/watch">
+                        <span id="">Come guardare Netflix</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a
-                    class="link"
-                    href="https://help.netflix.com/legal/termsofuse"
-                  >
-                    <span id="">Condizioni di utilizzo</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com/legal/termsofuse">
+                        <span id="">Condizioni di utilizzo</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://help.netflix.com/legal/privacy">
-                    <span id="">Privacy</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com/legal/privacy">
+                        <span id="">Privacy</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="#">
-                    <span id="">Preferenze per i cookie</span>
-                  </a>
+                    <a class="link" href="#">
+                        <span id="">Preferenze per i cookie</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a
-                    class="link"
-                    href="https://help.netflix.com/legal/corpinfo"
-                  >
-                    <span id="">Informazioni sull'azienda</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com/legal/corpinfo">
+                        <span id="">Informazioni sull'azienda</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://help.netflix.com/contactus">
-                    <span id="">Contattaci</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com/contactus">
+                        <span id="">Contattaci</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://fast.com">
-                    <span id="">Test di velocità</span>
-                  </a>
+                    <a class="link" href="https://fast.com">
+                        <span id="">Test di velocità</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://netflix.com/legal/guarantee">
-                    <span id="">Garanzia legale</span>
-                  </a>
+                    <a class="link" href="https://netflix.com/legal/guarantee">
+                        <span id="">Garanzia legale</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a class="link" href="https://help.netflix.com/legal/notices">
-                    <span id="">Note legali</span>
-                  </a>
+                    <a class="link" href="https://help.netflix.com/legal/notices">
+                        <span id="">Note legali</span>
+                    </a>
                 </li>
                 <li class="listalink">
-                  <a
-                    class="link"
-                    href="https://www.netflix.com/it/browse/genre/839338"
-                  >
-                    <span id="">Solo su Netflix</span>
-                  </a>
+                    <a class="link" href="https://www.netflix.com/it/browse/genre/839338">
+                        <span id="">Solo su Netflix</span>
+                    </a>
                 </li>
-              </ul>
-
-              <div class="selezione-lingua">
-                <div class="selezione-lingua-wrapper">
-                  <div class="globo">
-                    <select class="selezione-lingua-medium">
-                      <option
-                        selected=""
-                        lang="it"
-                        value="/it/"
-                        data-language="it"
-                        data-country="IT"
-                      >
-                        Italiano
-                      </option>
-                      <option
-                        lang="en"
-                        value="/it-en/"
-                        data-language="en"
-                        data-country="IT"
-                      >
-                        English
-                      </option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="footer-paese">Netflix Italia</p>
+            </ul>
         </div>
-      </div>
+        </div>
+        </div>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
