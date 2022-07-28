@@ -7,7 +7,7 @@ body {
     margin: 0px;
   }
   
-  .gd_header {
+.gd_header {
     background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0,transparent 40%,rgba(0,0,0,.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/dd485f49-8026-4349-8858-66604c8890cc/IT-it-20220725-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-repeat: no-repeat;
     height: 100vh;
@@ -98,6 +98,7 @@ body {
   .contenitore_testo{
     margin: 0px 200px;
     padding: 30px 0px;
+    
   }
   
   .titolo_1 , .titolo_2 , .testo_form {
@@ -164,7 +165,7 @@ body {
   }
   
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 425px) {
 
     .gd_header{
         height: 80%;
@@ -259,10 +260,7 @@ body {
       border: none;
       border-radius: 2px;
     }
-  
-    
-  
-    
+
     
   }
 
@@ -499,6 +497,11 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+    /*contenitore_testo è roba mia - Gianfranco*/
+    .contenitore_testo{
+        margin: 0px;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -1143,4 +1146,6 @@ footer {
         flex-wrap: wrap;
         max-height: 600px;
     }
+
+    
 }

@@ -1,0 +1,260 @@
+body {
+  margin: 0px;
+}
+
+.gd_header {
+  background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0,transparent 40%,rgba(0,0,0,.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/dd485f49-8026-4349-8858-66604c8890cc/IT-it-20220725-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0%;
+}
+
+/* css ombre rompe tutto e fa strabordare il contenuto*/
+
+/* ombre
+.sfondo_header {
+  position: fixed;
+  -webkit-box-shadow: inset 0 0 13px 13px #000;
+  -moz-box-shadow: inset 0 0 13px 13px #000;
+  box-shadow: inset 0 0 13px 13px #000;
+}*/
+
+.barra_superiore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 60px;
+  padding-top: 30px;
+}
+
+.contenitore_logo {
+  width: 170px;
+  height: 60px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.logo_netflix {
+  object-fit: contain;
+}
+
+.contenitore_destro {
+  display: flex;
+}
+
+.contenitore_selettore {    
+  padding-right: 30px;
+  z-index: 1;
+}
+
+/*.contenitore_selettore::before {
+  content: "\e896";
+}*/
+
+
+.selettore_lingua {
+  font-size: 14px;
+  height: 40px;
+  width: 90px;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  text-align-last: center;
+  border-radius: 2px;
+}
+
+.gd_option {
+  font-size: 14px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.stile_bottone {
+  width: 90px;
+  height: 40px;
+  font-size: large;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.centro {
+  padding: 70px 40px;
+  margin-bottom: 20px;
+  
+}
+
+.contenitore_testo{
+  margin: 0px 200px;
+  padding: 30px 0px;
+}
+
+.titolo_1 , .titolo_2 , .testo_form {
+  font-family: Arial, helvetica, sans-serif;
+}
+
+.titolo_1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px 70px;
+}
+
+#h1_film {
+  margin: 0;
+}
+
+.titolo_2 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.testo_form {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.container_form_email {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.input_email {
+  box-sizing: border-box;
+  width: 500px;
+  height: 65px;
+  
+}
+
+.bottone_email {
+  width: 150px;
+  height: 65px;
+  background-color: #e50914;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .barra_superiore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px;
+    padding-top: 25px;
+    height: 30px;
+  }
+
+  .contenitore_logo {
+    width: 89px;
+    height: 28px;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .contenitore_selettore {    
+    padding-right: 15px;
+    margin-left: 25px;
+  }
+
+  .selettore_lingua {
+    font-size: 14px;
+    height: 25px;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    text-align-last: center;
+    border-radius: 2px;
+  }
+
+  .stile_bottone {
+    width: 67px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  .centro {
+    padding: 45px 15px; 
+    margin-bottom: 20px;
+  }
+
+  .contenitore_testo{
+    margin: 0px;
+  }
+
+  .titolo_1 {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .titolo_2 {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 200;
+    margin: 0;
+  }
+  .container_form_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .input_email {
+    box-sizing: border-box;
+    width: 290px;
+    height: 50px;
+    margin-bottom: 18px;
+  }
+
+  .bottone_email {
+    width: 65px;
+    height: 40px;
+    background-color: #e50914;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+  }
+
+  
+
+  
+  
+}
+
+@media
