@@ -93,6 +93,11 @@ body {
   
 }
 
+.contenitore_testo{
+  margin: 0px 200px;
+  padding: 30px 0px;
+}
+
 .titolo_1 , .titolo_2 , .testo_form {
   font-family: Arial, helvetica, sans-serif;
 }
@@ -102,7 +107,11 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 700;
-  margin: 0px 240px;
+  margin: 0px 70px;
+}
+
+#h1_film {
+  margin: 0;
 }
 
 .titolo_2 {
@@ -130,6 +139,7 @@ body {
   box-sizing: border-box;
   width: 500px;
   height: 65px;
+  
 }
 
 .bottone_email {
@@ -142,6 +152,7 @@ body {
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  
 }
 
 
