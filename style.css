@@ -8,9 +8,6 @@ body {
   }
   
   .gd_header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0,transparent 40%,rgba(0,0,0,.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/dd485f49-8026-4349-8858-66604c8890cc/IT-it-20220725-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-repeat: no-repeat;
     height: 100vh;
@@ -93,9 +90,14 @@ body {
   }
   
   .centro {
-    padding: 20px 50px;
+    padding: 70px 40px;
     margin-bottom: 20px;
     
+  }
+  
+  .contenitore_testo{
+    margin: 0px 200px;
+    padding: 30px 0px;
   }
   
   .titolo_1 , .titolo_2 , .testo_form {
@@ -107,7 +109,11 @@ body {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    margin: 0px 240px;
+    margin: 0px 70px;
+  }
+  
+  #h1_film {
+    margin: 0;
   }
   
   .titolo_2 {
@@ -118,11 +124,17 @@ body {
     margin: 0;
   }
   
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+  
   .testo_form {
     color: white;
     text-align: center;
     font-size: 15px;
     margin: 0;
+    padding-bottom: 20px;
   }
   
   .container_form_email {
@@ -135,6 +147,7 @@ body {
     box-sizing: border-box;
     width: 500px;
     height: 65px;
+    
   }
   
   .bottone_email {
@@ -147,6 +160,7 @@ body {
     border: none;
     border-radius: 2px;
     cursor: pointer;
+    
   }
   
   
@@ -198,6 +212,10 @@ body {
       margin-bottom: 20px;
     }
   
+    .contenitore_testo{
+      margin: 0px;
+    }
+  
     .titolo_1 {
       color: white;
       text-align: center;
@@ -236,7 +254,12 @@ body {
       font-size: 15px;
       border: none;
       border-radius: 2px;
-    }  
+    }
+  
+    
+  
+    
+    
   }
 
   /*STILE MAIN*/
