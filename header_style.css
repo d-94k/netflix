@@ -3,6 +3,7 @@ body {
 }
 
 .gd_header {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,6 +15,13 @@ body {
   position: absolute;
   right: 0;
   top: 0%;
+=======
+
+  background-image: linear-gradient(0deg, rgba(0,0,0,.8) 0,transparent 40%,rgba(0,0,0,.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/dd485f49-8026-4349-8858-66604c8890cc/IT-it-20220725-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+
+>>>>>>> 380b6af2b3712933621d4bd5bc94d67d3af0040d
 }
 
 /* css ombre rompe tutto e fa strabordare il contenuto*/
