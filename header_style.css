@@ -9,7 +9,7 @@
 }
 
 .gd_header {
-  position: absolute;
+  position: relative;
 }
 
 /* css ombre rompe tutto e fa strabordare il contenuto*/
