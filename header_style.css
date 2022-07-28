@@ -149,6 +149,7 @@
   cursor: pointer;
 }
 
+
 @media screen and (max-width: 320px) {
 
   .barra_superiore {
@@ -161,7 +162,8 @@
   }
 
   .contenitore_logo {
-    height: 30px;
+    width: 89px;
+    height: 28px;
     padding: 0;
     margin-top: 0;
   }
