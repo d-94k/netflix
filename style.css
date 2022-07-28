@@ -504,8 +504,12 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 45px !important;
-        margin-bottom: 45px !important;
+        margin-top: 45px /*!important*/ ;
+        margin-bottom: 45px /*!important*/ ;
+    }
+
+    #container {
+        margin-top: 0;
     }
 
     .textcontainer {
