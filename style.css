@@ -58,17 +58,26 @@ body {
   /*.contenitore_selettore::before {
     content: "\e896";
   }*/
+
+  .globo > svg{
+    height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
   
   
   .selettore_lingua {
     font-size: 14px;
     height: 40px;
-    width: 90px;
+    width: 100px;
     background-color: transparent;
     color: white;
     border-radius: 4px;
     text-align-last: center;
     border-radius: 2px;
+    padding-left: 15px;
+    
   }
   
   .gd_option {
@@ -182,7 +191,7 @@ body {
   
     .contenitore_logo {
       width: 89px;
-      height: 28px;
+      height: 30px;
       padding: 0;
       margin-top: 0;
     }
@@ -191,11 +200,18 @@ body {
       padding-right: 15px;
       margin-left: 25px;
     }
+
+    .globo > svg{
+      height: 15px;
+      position: absolute;
+      margin-top: 7.5px;
+      margin-left: 3px;
+    }
   
     .selettore_lingua {
       font-size: 14px;
-      height: 25px;
-      width: 80px;
+      height: 30px;
+      width: 85px;
       background-color: transparent;
       color: white;
       border-radius: 4px;
@@ -205,7 +221,7 @@ body {
   
     .stile_bottone {
       width: 67px;
-      height: 25px;
+      height: 30px;
       font-size: 15px;
       background-color: #e50914;
       color: white;
